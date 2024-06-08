@@ -1,4 +1,4 @@
-#### [Application demo video](https://youtu.be/KGnSYg3Ete4)
+#### [Application demo video](https://youtu.be/KGnSYg3Ete4){:target="_blank"}
 
 ## Building & running the app in Docker:
 1) Sign in or create an [OpenAI account](https://platform.openai.com/)
