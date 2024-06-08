@@ -1,3 +1,5 @@
+#### [Application demo video](https://youtu.be/KGnSYg3Ete4)
+
 ## Building & running the app in Docker:
 1) Sign in or create an [OpenAI account](https://platform.openai.com/)
 2) [Generate an API key](https://platform.openai.com/api-keys) and copy it to your clipboard
