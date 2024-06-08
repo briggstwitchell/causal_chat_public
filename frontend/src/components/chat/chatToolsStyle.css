@@ -1,0 +1,7 @@
+.chat-visible {
+    display: block;
+}
+
+.chat-hidden {
+    display: none;
+}

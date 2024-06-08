@@ -1,0 +1,6 @@
+*pycache*
+backend/test
+backend/chat_histories/*
+!backend/chat_histories/.gitkeep
+*DS_Store*
+aws_key_pair

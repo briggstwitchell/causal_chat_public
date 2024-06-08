@@ -1,0 +1,15 @@
+.react-chatbot-kit-chat-container {
+    width: 400px;
+}
+
+.react-chatbot-kit-chat-bot-message{
+    margin-left: 2px;
+}
+
+.chat-visible {
+    display: block;
+}
+
+.chat-hidden {
+    display: none;
+}

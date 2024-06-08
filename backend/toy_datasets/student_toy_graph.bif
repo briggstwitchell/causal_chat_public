@@ -1,0 +1,36 @@
+network "StudentPerformance" {
+// written by aGrUM 1.13.0
+}
+
+variable family_income {
+   type discrete[3] {low, medium, high};
+}
+
+variable hours_studied {
+   type discrete[3] {low, medium, high};
+}
+
+variable course_grade {
+   type discrete[3] {low, medium, high};
+}
+
+probability (family_income) {
+   table 0.333333 0.333333 0.333333;
+}
+probability (hours_studied | family_income) {
+   (low) 1 0 0;
+   (medium) 0 0 1;
+   (high) 0 1 0;
+}
+probability (course_grade | family_income, hours_studied) {
+   (low, low) 1 0 0;
+   (medium, low) 1 0 0;
+   (high, low) 1 0 0;
+   (low, medium) 0 1 0;
+   (medium, medium) 0 1 0;
+   (high, medium) 0 0 1;
+   (low, high) 0 0 1;
+   (medium, high) 0 0 1;
+   (high, high) 0 0 1;
+}
+
